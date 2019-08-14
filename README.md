@@ -14,8 +14,8 @@ A group challenge combining knowledge gained so far. In the first weeks we've se
 
 Our company is  a full-service event management company, we have continuously strived towards the flawless execution of events and planning. Our focus  is mainly on things like festivals and other musical events, corporate meetings and product launches, but also street parties and barbecue battles.
 
-.
-
 ### Our website
+
+![Fixit website]()
 
 
