@@ -1,0 +1,518 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: white;
+  background: -moz-linear-gradient(45deg, white 0%, #f6f6f6 47%, #ededed 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, white), color-stop(47%, #f6f6f6), color-stop(100%, #ededed));
+  background: -webkit-linear-gradient(45deg, white 0%, #f6f6f6 47%, #ededed 100%);
+  background: -o-linear-gradient(45deg, white 0%, #f6f6f6 47%, #ededed 100%);
+  background: -ms-linear-gradient(45deg, white 0%, #f6f6f6 47%, #ededed 100%);
+  background: linear-gradient(45deg, white 0%, #f6f6f6 47%, #ededed 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 ); }
+
+body {
+  background: #4123aa;
+  background: linear-gradient(45deg, #4123aa 0%, #d42c2c 50%, #cc2dd7 100%);
+  font-family: 'Montserrat', sans-serif;
+  line-height: 28px; }
+
+.box {
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  background: #343a40;
+  color: #dadada;
+  padding: 20px;
+  letter-spacing: 1px;
+  line-height: 22px; }
+
+.font p {
+  font-family: 'Montserrat', sans-serif; }
+
+#navigation button {
+  text-transform: uppercase; }
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+footer {
+  color: #dadada;
+  padding: 20px; }
+
+audio {
+  width: 80%;
+  margin-left: 10%; }
+
+footer p {
+  margin: auto; }
+
+@media only screen and (min-width: 992px) {
+  .jobs .box {
+    margin-right: 5%; } }
+.jobs h3 {
+  text-align: center;
+  color: #dadada;
+  margin-top: -40px; }
+
+.slogan h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #dadada;
+  font-weight: bold;
+  height: 25vh;
+  margin-top: -27vh;
+  line-height: 12vh; }
+
+.jobs p {
+  padding-top: 20px; }
+
+.jobimage {
+  background: url("../img/party.jpg");
+  height: 150px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.homeimage {
+  background: url("../img/defaultimg.jpeg");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.video {
+  height: 100%;
+  width: 100%; }
+
+@media only screen and (max-width: 767px) {
+  .homeimage {
+    height: 300px; }
+
+  .gone {
+    display: none; }
+
+  .video {
+    height: 300px;
+    margin-bottom: 50px; } }
+.parallax {
+  background-image: url("../img/party.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax2 {
+  background-image: url("../img/party.jpg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.navigation {
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+header img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-top: 30vh;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 500px 20px 500px; }
+
+@media only screen and (max-width: 1200px) {
+  header img {
+    padding: 20px 400px 20px 400px; } }
+@media only screen and (max-width: 1000px) {
+  header img {
+    padding: 20px 300px 20px 300px; } }
+@media only screen and (max-width: 800px) {
+  header img {
+    padding: 20px 200px 0px 200px; }
+
+  .p-4 {
+    padding-bottom: 0px !important; }
+
+  .navigation .bg-dark a, .navigation button {
+    margin-bottom: 20px; } }
+@media only screen and (min-width: 800px) {
+  .row {
+    margin-right: 0px; } }
+@media only screen and (max-width: 600px) {
+  header img {
+    padding: 20px 100px 20px 100px; }
+
+  .fixedbox {
+    display: none; } }
+@media only screen and (max-width: 400px) {
+  header img {
+    padding: 20px;
+    margin-top: 0px; } }
+.navigation .bg-dark a {
+  text-transform: uppercase; }
+
+.fixedbox {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  bottom: 100px;
+  right: 20px;
+  background: #343a40;
+  color: #dadada;
+  text-decoration: none;
+  transition: 0.3s;
+  text-align: center;
+  line-height: 45px;
+  border: 1px solid #dadada;
+  font-size: 36px; }
+
+.fixedbox:hover {
+  text-decoration: none;
+  color: #343a40;
+  background: #dadada; }
+
+.title {
+  text-transform: uppercase;
+  color: #dadada;
+  font-weight: bold;
+  font-size: 44px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 50px; }
+
+.titletop {
+  text-transform: uppercase;
+  color: #dadada;
+  font-size: 44px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 50px; }
+
+.openingsuren a {
+  color: #dadada;
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 2px; }
+
+h4 {
+  font-family: 'Bangers', cursive;
+  color: #c74c61; }
+
+h5 {
+  font-family: 'Bangers', cursive;
+  color: #c74c61; }
+
+.partypic {
+  height: 400px;
+  width: 100%; }
+
+.party {
+  background: url("../img/partypic.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center; }
+
+.profilepic {
+  height: 200px;
+  width: 100%; }
+
+.Tim {
+  background: url("../img/tim.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center; }
+
+.rafah {
+  background: url("../img/rafahpic.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center; }
+
+.jeroen {
+  background: url("../img/jero.jpeg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center; }
+
+.Badr {
+  background: url("../img/badr.jpeg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center; }
+
+.Mouad {
+  background: url("../img/mo.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center; }
+
+.Liam {
+  background: darkgrey;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center; }
+
+.size {
+  width: 125%;
+  height: 125;
+  padding: 25px;
+  padding-bottom: 25px; }
+
+.size2 {
+  width: 100%;
+  height: 100;
+  padding: 20px;
+  padding-top: 30px; }
+
+.text {
+  text-align: center; }
+
+.Live-nation {
+  background: url("../img/Live-nation.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.Live-Music {
+  background: url("../img/Live-music.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+footer {
+  margin-right: 0px !important; }
+
+table {
+  border-collapse: separate;
+  border-spacing: 0px 5px;
+  margin-bottom: 15px; }
+
+.openingsuren table tr td:nth-child(2) {
+  padding-left: 15px; }
+
+.logo a {
+  color: #dadada; }
+
+submit {
+  color: #6e6c68;
+  font-size: 0;
+  width: 135px;
+  height: 60px;
+  border: none;
+  margin: 0;
+  padding: 0; }
+
+.submit {
+  margin-bottom: 15px; }
+
+address {
+  font-weight: bold; }
+
+.submit {
+  float: right; }
+
+.logo {
+  text-align: right; }
+
+.margins {
+  margin: 80px auto; }
+
+iframe {
+  height: 350px;
+  width: 100%; }
+
+.Titel h2 {
+  text-align: center; }
+
+.eventimage {
+  width: 100%;
+  height: 200px; }
+
+.apple {
+  background: url("../img/Apple.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.Microsoft {
+  background: url("../img/Microsoft.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.Samsung {
+  background: url("../img/samsung.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.rock {
+  background: url("../img/rockwerchter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.tomorrow {
+  background: url("../img/tomorrowland.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.pukkelpop {
+  background: url("../img/pukkelpop.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.Live-nation {
+  background: url("../img/Live-nation.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.Live-Music {
+  background: url("../img/Live-music.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.Vamps {
+  background: url("../img/Vamps.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.Tesla {
+  background: url("../img/Tesla.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.bmw {
+  background: url("../img/bmw.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.huawei {
+  background: url("../img/huawei.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.Kinderen {
+  background: url("../img/kinderbarbecue.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.braderij {
+  background: url("../img/braderij.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.rommelmarkt {
+  background: url("../img/rommelmarkt.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.battle {
+  background: url("../img/barbecue.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.barbecue-battle {
+  background: url("../img/barbecuebattle.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.barbecue-battle2 {
+  background: url("../img/Barbecuebattle2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+.services {
+  /*padding-left: 80px;*/
+  /*h1 {
+    font-size: 32px;
+    color: white;
+    margin-top: 35px;
+    text-align: center;
+  }*/ }
+
+.events {
+  /*margin: 0 auto;*/
+  text-align: center;
+  /*width: 320px;*/
+  /*margin: 20px;*/ }
+  .events .imgCon {
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*border: 1px solid black;*/
+    /*-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);*/
+    /*-webkit-box-shadow: 10px 10px 5px 0px rgba(138,11,138,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(138,11,138,1);
+    box-shadow: 10px 10px 5px 0px rgba(138,11,138,1);*/
+    /*-webkit-box-shadow: 5px 5px 5px 0px rgba(92,7,92,1);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(92,7,92,1);
+    box-shadow: 5px 5px 5px 0px rgba(92,7,92,1); */
+    /*-webkit-box-shadow: 10px 10px 10px 0px rgba(240,84,240,1);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(240,84,240,1);
+    box-shadow: 10px 10px 10px 0px rgba(240,84,240,1);*/ }
+  .events .imageContainer1 {
+    background-image: url("../img/werchter.jpg"); }
+  .events .imageContainer2 {
+    background-image: url("../img/Live-Concert-1.jpg"); }
+  .events .imageContainer3 {
+    background-image: url("../img/corporate.jpeg"); }
+  .events .imageContainer4 {
+    background-image: url("../img/productLaunch.jpeg"); }
+  .events .imageContainer5 {
+    background-image: url("../img/streetParty.jpeg"); }
+  .events .imageContainer6 {
+    background-image: url("../img/barbecueBattle.jpeg"); }
+  .events h2 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: inherit; }
+  .events p {
+    text-align: center; }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px; }
+
+/*# sourceMappingURL=style.css.map */

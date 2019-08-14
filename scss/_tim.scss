@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+
+body{
+	background: rgb(65,35,170);
+	background: linear-gradient(45deg, rgba(65,35,170,1) 0%, rgba(212,44,44,1) 50%, rgba(204,45,215,1) 100%);
+	font-family: 'Montserrat', sans-serif;
+	line-height: 28px;
+}
+
+.box{
+	margin: auto;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	background: #343a40;
+	color: #dadada;
+	padding: 20px;
+	letter-spacing: 1px;
+	line-height: 22px;
+}
+
+.font p{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#navigation button{
+	text-transform: uppercase;
+}
+
+.container{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+footer{
+	color: #dadada;
+	padding: 20px;
+}
+
+audio{
+	width: 80%;
+	margin-left: 10%;
+}
+
+footer p{
+	margin: auto;
+}
+
+@media only screen and (min-width: 992px) {
+  .jobs .box{
+  	margin-right: 5%;
+  }
+}
+
+.jobs h3{
+	text-align: center;
+	color: #dadada;
+	margin-top: -40px;
+}
+
+.slogan h4{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+	color: #dadada;
+	font-weight: bold;
+	height: 25vh;
+	margin-top: -27vh;
+	line-height: 12vh;
+}
+
+.jobs p{
+	padding-top: 20px;
+}
+
+.jobimage{
+	background: url("../img/party.jpg");
+	height: 150px;
+	width: 100%;
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.homeimage{
+	background: url("../img/defaultimg.jpeg");
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.video{
+	height: 100%;
+	width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+	.homeimage{
+		height: 300px;
+	}
+
+	.gone{
+		display: none;
+	}
+
+	.video{
+		height: 300px;
+		margin-bottom: 50px;
+	}
+}
+
+
+.parallax {
+  background-image: url("../img/party.jpg");
+  min-height: 100vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background-image: url("../img/party.jpg");
+  height: 50vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navigation{
+	text-align: center;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+header img{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	margin-top: 30vh;
+	background: rgba(black, 0.5);
+	padding: 20px 500px 20px 500px;
+}
+
+@media only screen and (max-width: 1200px) {
+  header img{
+	padding: 20px 400px 20px 400px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+  header img{
+	padding: 20px 300px 20px 300px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+  	header img{
+		padding: 20px 200px 0px 200px;
+	}
+
+	.p-4{
+		padding-bottom: 0px!important;
+	}
+
+	.navigation .bg-dark a, .navigation button{
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+  .row{
+	margin-right: 0px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+  	header img{
+		padding: 20px 100px 20px 100px;
+	}
+
+	.fixedbox{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+  header img{
+	padding: 20px;
+	margin-top: 0px;
+	}
+}
+
+.navigation .bg-dark a{
+	text-transform: uppercase;
+}
+
+.fixedbox{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	bottom: 100px;
+	right: 20px;
+	background: #343a40;
+	color: #dadada;
+	text-decoration: none;
+	transition: 0.3s;
+	text-align: center;
+	line-height: 45px;
+	border: 1px solid #dadada;
+	font-size: 36px;
+}
+
+.fixedbox:hover{
+	text-decoration: none;
+	color: #343a40;
+	background: #dadada;
+}
+
+.title{
+	text-transform: uppercase;
+	color: #dadada;
+	font-weight: bold;
+	font-size: 44px;
+	margin-bottom: 50px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.titletop{
+	text-transform: uppercase;
+	color: #dadada;
+	font-size: 44px;
+	margin-bottom: 50px;
+	text-align: center;
+	margin-top: 50px;	
+}
+
+.openingsuren a{
+	color: #dadada;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Bangers', cursive;
+	letter-spacing: 2px;
+}

@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+footer{
+  margin-right: 0px!important;
+}
+
+table{
+  border-collapse: separate;
+  border-spacing: 0px 5px;
+  margin-bottom: 15px;
+}
+
+
+.openingsuren table tr td:nth-child(2){
+  padding-left: 15px;
+}
+
+.logo a{
+  color: #dadada;
+}
+
+submit {
+  color: #6e6c68;
+  font-size: 0;
+  width: 135px;
+  height: 60px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.submit{
+  margin-bottom: 15px;
+}
+
+address{
+  font-weight: bold;
+}
+
+.submit{
+  float: right;
+}
+
+.logo{
+  text-align: right;
+}
+
+.margins{
+  margin: 80px auto;
+}
+iframe{
+  height: 350px;
+  width: 100%;
+}
