@@ -16,6 +16,6 @@ Our company is  a full-service event management company, we have continuously st
 
 ### Our website
 
-![Fixit website]()
+![Fixit website](https://github.com/Jeroen-Jozef/challenge-fixit/blob/master/fixit.png)
 
 
